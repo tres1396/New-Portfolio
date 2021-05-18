@@ -1,0 +1,545 @@
+html {
+  background: url(images/13588.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  backdrop-filter: blur(8px);
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  /* background: #edc0bf;
+    background: linear-gradient(90deg, #edc0bf 0,#c4caef 58%); */
+  font-family: "Inter", sans-serif;
+  /* display: flex;
+  flex-direction: row; */
+}
+
+#top-page {
+  display: flex;
+  flex-direction: row;
+}
+
+#vector {
+  height: 13rem;
+  width: 13rem;
+  border-radius: 50%;
+}
+
+.card {
+  width: 775px;
+  height: auto;
+  padding: 2rem;
+  border: 3px, solid white;
+  border-radius: 1rem;
+  /* other styles */
+  background: rgba(255, 255, 255, 0.45);
+  /* box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ); */
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+  margin-left: 7rem;
+  margin-top: 6rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 0.125px solid white;
+}
+
+.card-title {
+  align-items: center;
+  margin-right: 2rem;
+  font-size: 3rem;
+  font-family: "Roboto Slab", serif;
+}
+
+/* #yellow-bar {
+  height: 11px;
+  width: 117px;
+  border: 2px solid #e9e800;
+  position: absolute;
+  margin-top: 250px;
+  margin-left: 101px;
+  background-color: #e9e800;
+  z-index: -1;
+} */
+
+#card-subhead {
+  align-items: center;
+  margin-top: 2.8rem;
+  margin-right: 2rem;
+  font-size: 1.25rem;
+  font-family: "Roboto Slab", serif;
+  color: white;
+  font-weight: 200;
+  margin-bottom: 3rem;
+}
+
+.card-button {
+  display: inline-block;
+  width: 225px;
+  padding: 15px 20px;
+  border: 0;
+  text-decoration: none;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(30px);
+  font-size: 16px;
+  font-weight: 600;
+  color: #005bea;
+  letter-spacing: 2px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-family: "Roboto Slab", serif;
+  margin-bottom: 8px;
+}
+
+.card-button:hover {
+  background-color: rgba(255, 255, 255, 0.295);
+}
+
+p,
+a {
+  font-size: 1rem;
+}
+
+a {
+  color: #4d4ae8;
+  text-decoration: none;
+}
+
+.shape {
+  position: absolute;
+  width: 150px;
+  top: 0.5rem;
+  left: 0.5rem;
+}
+
+.card-2 {
+  position: absolute;
+  width: 900px;
+  height: 400px;
+  padding: 2rem;
+  border: 3px, solid white;
+  border-radius: 1rem;
+  /* other styles */
+  background-image: linear-gradient(to right, #00c6fb 0%, #005bea 100%);
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+  margin-left: 3rem;
+  margin-top: 1.35rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transform: rotate(-2.5deg);
+}
+
+.card-3 {
+  position: absolute;
+  width: 900px;
+  height: 400px;
+  padding: 2rem;
+  border: 3px, solid white;
+  border-radius: 1rem;
+  /* other styles */
+  background: rgba(255, 255, 255, 0.45);
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+  margin-left: 3rem;
+  margin-top: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#portfolio-section {
+  align-items: center;
+}
+
+#portfolio-card {
+  margin-top: 30rem;
+  margin-left: 20rem;
+  margin-bottom: 10rem;
+  width: 700px;
+  height: 660px;
+  border: 2px solid red;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5.5px);
+  -webkit-backdrop-filter: blur(5.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  display: flex;
+  flex-direction: column;
+}
+
+#portfolio-header {
+  height: 100px;
+  width: auto;
+  background: rgba(255, 255, 255, 0.55);
+  /* box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ); */
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  font-family: "Roboto Slab", serif;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+#portfolio-body {
+  height: 100%;
+  width: auto;
+  background: rgba(255, 255, 255, 0.15);
+  /* box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ); */
+  backdrop-filter: blur(3.5px);
+  -webkit-backdrop-filter: blur(3.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+#port-1 {
+  height: 125px;
+  width: 225px;
+  background-image: linear-gradient(to right, #00c6fb 0%, #005bea 100%);
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  border-radius: 20px;
+  margin-left: 16%;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+#port-1a {
+  height: 125px;
+  width: 185px;
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.45), rgba(255, 255, 255, 1.5));
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#port1-button {
+  border-radius: 20px;
+  height: 40px;
+  width: 150px;
+  color: white;
+  font-family: "Roboto Slab", serif;
+  border: none;
+  background: #005bea 100%;
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+}
+
+#port1-button:hover {
+  background-color: #005aea83 ;
+}
+
+/* Profile Generator Modal*/
+/* Modal Background */
+
+.modal1 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 30px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Profile Generator Modal Content */
+
+.modal1-content {
+  /* background-color: #fefefe; */
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  background: rgba(255, 255, 255, 0.55);
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur(3.5px);
+  -webkit-backdrop-filter: blur(3.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+/* The Close Button */
+.close1 {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close1:hover,
+.close1:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#port-2 {
+  height: 125px;
+  width: 225px;
+  background-image: linear-gradient(to right, #00c6fb 0%, #005bea 100%);
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  border-radius: 20px;
+  margin-left: 50%;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+#port-2a {
+  height: 125px;
+  width: 185px;
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.45), rgba(255, 255, 255, 1.5));
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#port2-button {
+  border-radius: 20px;
+  height: 40px;
+  width: 150px;
+  color: white;
+  font-family: "Roboto Slab", serif;
+  border: none;
+  background: #005bea 100%;
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+}
+
+#port2-button:hover {
+  background-color: #005aea83 ;
+}
+
+/* ReadMe Modal Content */
+
+.modal2 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 30px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal2-content {
+  /* background-color: #fefefe; */
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  background: rgba(255, 255, 255, 0.55);
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur(3.5px);
+  -webkit-backdrop-filter: blur(3.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+/* The Close Button */
+.close2 {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close2:hover,
+.close2:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#port-3 {
+  height: 125px;
+  width: 225px;
+  background-image: linear-gradient(to right, #00c6fb 0%, #005bea 100%);
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  border-radius: 20px;
+  margin-left: 23%;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+#port-3a {
+  height: 125px;
+  width: 185px;
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.45), rgba(255, 255, 255, 1.5));
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#port3-button {
+  border-radius: 20px;
+  height: 40px;
+  width: 150px;
+  color: white;
+  font-family: "Roboto Slab", serif;
+  border: none;
+  background: #005bea 100%;
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+}
+
+#port3-button:hover {
+  background-color: #005aea83 ;
+}
+
+/* JOB JUMP MODAL */
+
+.modal3 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 30px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal3-content {
+  /* background-color: #fefefe; */
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  background: rgba(255, 255, 255, 0.55);
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur(3.5px);
+  -webkit-backdrop-filter: blur(3.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+/* The Close Button */
+.close3 {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close3:hover,
+.close3:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#about-me-card {
+  margin-top: 30rem;
+  margin-left: 17%;
+  margin-bottom: 10rem;
+  width: 900px;
+  height: 550px;
+  border: 2px solid red;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5.5px);
+  -webkit-backdrop-filter: blur(5.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  display: flex;
+  flex-direction: column;
+}
+
+#about-me-header {
+  height: 100px;
+  width: auto;
+  background: rgba(255, 255, 255, 0.55);
+  /* box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ); */
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  font-family: "Roboto Slab", serif;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+#about-me-body {
+  display: flex;
+  font-family: "Roboto Slab", serif;
+  flex-direction: row;
+}
+
+#selfie {
+  width: 14rem;
+  height: auto;
+  border-radius: 10px;
+  margin-left: 2rem;
+}
+
+#about-me-text {
+  margin-left: 1rem;
+  font-size: 1.5rem;
+}
+
+#contact-card {
+  margin-top: 30rem;
+  margin-left: 30%;
+  margin-bottom: 10rem;
+  width: 600px;
+  height: 425px;
+  border: 2px solid red;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5.5px);
+  -webkit-backdrop-filter: blur(5.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  display: flex;
+  flex-direction: column;
+}
+
+#contact-header {
+  height: 100px;
+  width: auto;
+  background: rgba(255, 255, 255, 0.55);
+  /* box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ); */
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  font-family: "Roboto Slab", serif;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+#contact-body {
+  display: flex;
+  font-family: "Roboto Slab", serif;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.break {
+  flex-basis: 100%;
+  height: 0;
+}

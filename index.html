@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet"> -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;700&display=swap" rel="stylesheet">
+
+    <title>Tre' Scott</title>
+</head>
+
+<body>
+    <!-- Profile Generator Modal -->
+    <div id="proGenModal" class="modal1">
+
+        <!-- Modal content -->
+        <div class="modal1-content">
+            <span class="close1">&times;</span>
+            <h2 style="text-align: center;">Team Profile Generator</h2>
+            <img style="width: 75%; height: auto; display: block; margin-left: auto; margin-right: auto;"
+                src="./images/teamgenpic.png">
+            <p style="font-size: 1.5rem; text-align: center; font-family: 'Roboto Slab', serif;">This is a team profile
+                generator that uses command line to create cards for each role within an office. This application uses
+                HTML, CSS, Javascript, and Node.js.</p>
+            <p style="text-align:center;"><a
+                    href="https://drive.google.com/file/d/10PHcD7EuyPwDoeX2gF5T2grCP-jJ6-0H/view" target="blank">See It
+                    On Github</a></p>
+        </div>
+    </div>
+
+    <!--Readme Generator Modal-->
+    <div id="readmeModal" class="modal2">
+
+        <!-- Modal content -->
+        <div class="modal2-content">
+            <span class="close2">&times;</span>
+            <h2 style="text-align: center;">ReadMe Generator</h2>
+            <img style="width: 75%; height: auto; display: block; margin-left: auto; margin-right: auto;"
+                src="./images/appimage.png">
+            <p style="font-size: 1rem; text-align: center; font-family: 'Roboto Slab', serif;">This is a readme
+                generator that uses node.js to take user input and outputs the responses to a readme file. The responses
+                are formatted to Markdown and correctly placed into their designated sections.</p>
+            <p style="text-align:center; "><a href="https://github.com/tres1396/readme_generator" target="blank">See It
+                    On Github</a></p>
+        </div>
+    </div>
+
+    <!--Job Jump Modal-->
+    <div id="jobJumpModal" class="modal3">
+        <!-- Modal content -->
+        <div class="modal3-content">
+            <span class="close3">&times;</span>
+            <h2 style="text-align: center;">Job Jump</h2>
+            <img style="width: 75%; height: auto; display: block; margin-left: auto; margin-right: auto;"
+                src="./images/jobjumpscreenshot.png">
+            <p style="font-size: .75rem; text-align: center; font-family: 'Roboto Slab', serif;">JobJump allows users to
+                search for job keywords in any US State and returns a job description, as well as COVID positive cases,
+                deaths, and the number of increased covid cases per day.</p>
+            <p style="text-align:center; "><a href="https://github.com/tres1396/job-jump" target="blank">See It On
+                    Github</a></p>
+        </div>
+    </div>
+    <!--Main page-->
+    <div id="top-page">
+        <div class="card-3"></div>
+        <div class="card-2"></div>
+        <div class="card">
+            <h3 class="card-title">Tre´ &nbsp;&nbsp;&nbsp;Scott</h3>
+            <div id=yellow-bar></div>
+            <h4 id="card-subhead">Full Stack Web Developer</h4>
+            <div style="padding: 2px">
+                <button class="card-button"><a href="#top-page">Home</a></button>
+                <button class="card-button"><a href="#about-me-card">About</a></button>
+            </div>
+            <div style="padding: 2px">
+                <button class="card-button"><a href="#portfolio-card">Portfolio</a></button>
+                <button class="card-button"><a href="#contact-card">Contact</a></button>
+            </div>
+        </div>
+    </div>
+    <!--Portfolio-->
+    <div id="portfolio-section">
+        <div id="portfolio-card">
+            <div id="portfolio-header">
+                <h2 style="margin-top: 30px; color: #005bea">Portfolio</h2>
+            </div>
+            <div id="portfolio-body">
+                <!--App 1-->
+                <div id="port-1">
+                    <div id="port-1a">
+                        <button id="port1-button">Profile Generator</button>
+                    </div>
+                </div>
+                <!--App 2-->
+                <div id="port-2">
+                    <div id="port-2a">
+                        <button id="port2-button">ReadMe Generator</button>
+                    </div>
+                </div>
+                <!--App 3-->
+                <div id="port-3">
+                    <div id="port-3a">
+                        <button id="port3-button">JobJump</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--ABOUT ME-->
+
+        <div id="about-me-card">
+            <div id="about-me-header">
+                <h2 style="margin-top: 30px; color: #005bea">About Me</h2>
+            </div>
+            <div id="about-me-body">
+                <img id="selfie" src="images/IMG-2121 (1).JPG">
+                <p id="about-me-text">I am currently a part of The Ohio State University's Full Stack coding bootcamp
+                    where I am learning the skills to build full stack applications.
+                    My background is in healthcare, but I am eager to learn, grow, and build my future in the tech
+                    industry, specifically in software development.
+                </p>
+            </div>
+        </div>
+
+        <!--CONTACT ME-->
+        <div id="contact-card">
+            <div id="contact-header">
+                <h2 style="margin-top: 30px; color: #005bea">Contact Me</h2>
+            </div>
+            <div id="contact-body">
+                <div style="display: flex; flex-direction: row; margin-left: 1rem;">
+                    <h3>Phone:</h3> <p style="margin-left: 1rem;">757-708-1553</p><br>
+                </div>
+                <div style="display: flex; flex-direction: row; margin-left: 1rem;">
+                    <h3>E-Mail:</h3> <p style="margin-left: 1rem;">TRES1396@gmail.com</p>
+                </div>
+                <div style="display: flex; flex-direction: row; margin-left: 1rem;">
+                    <h3>Github</h3> <p style="margin-left: 1rem;"><a href="https://github.com/tres1396" target="blank">See My Github</a></p>
+                </div>
+                <div style="display: flex; flex-direction: row; margin-left: 1rem;">
+                    <h3>LinkedIn</h3> <p style="margin-left: 1rem;"><a href="https://www.linkedin.com/in/tre-scott/" target="blank">See My LinkedIn</a></p>
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </div>
+    <script>
+        //PROFILE GENERATOR MODAL
+        var modal1 = document.getElementById("proGenModal");
+
+        // Get the button that opens the modal
+        var btn1 = document.getElementById("port1-button");
+
+        // Get the <span> element that closes the modal
+        var span1 = document.getElementsByClassName("close1")[0];
+
+        // When the user clicks the button, open the modal 
+        btn1.onclick = function () {
+            modal1.style.display = "block";
+        }
+
+        // When the user clicks on <span> (x), close the modal
+        span1.onclick = function () {
+            modal1.style.display = "none";
+        }
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function (event) {
+            if (event.target == modal1) {
+                modal1.style.display = "none";
+            }
+        }
+
+        //README GENERATOR MODAL
+        var modal2 = document.getElementById("readmeModal");
+
+        // Get the button that opens the modal
+        var btn2 = document.getElementById("port2-button");
+
+        // Get the <span> element that closes the modal
+        var span2 = document.getElementsByClassName("close2")[0];
+
+        // When the user clicks the button, open the modal 
+        btn2.onclick = function () {
+            modal2.style.display = "block";
+        }
+
+        // When the user clicks on <span> (x), close the modal
+        span2.onclick = function () {
+            modal2.style.display = "none";
+        }
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function (event) {
+            if (event.target == modal2) {
+                modal2.style.display = "none";
+            }
+        }
+
+        //JOB JUMP MODAL
+        var modal3 = document.getElementById("jobJumpModal");
+
+        // Get the button that opens the modal
+        var btn3 = document.getElementById("port3-button");
+
+        // Get the <span> element that closes the modal
+        var span3 = document.getElementsByClassName("close3")[0];
+
+        // When the user clicks the button, open the modal 
+        btn3.onclick = function () {
+            modal3.style.display = "block";
+        }
+
+        // When the user clicks on <span> (x), close the modal
+        span3.onclick = function () {
+            modal3.style.display = "none";
+        }
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function (event) {
+            if (event.target == modal3) {
+                modal3.style.display = "none";
+            }
+        }
+    </script>
+</body>
+
+</html>
